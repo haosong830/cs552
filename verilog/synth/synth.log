@@ -1,0 +1,152 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+                 Version P-2019.03 for linux64 - Feb 27, 2019 
+
+                    Copyright (c) 1988 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+echo "********** CS552 Reading files begin ********************"
+********** CS552 Reading files begin ********************
+set my_verilog_files [list alu_old.v alu.v barrelShifter.v branch_deci.v branch_forwarding.v cache_control.v cache.v cla_16b.v cla_4b.v control.v dff.v EXMEM_ff.v ff_16b.v final_memory.syn.v forwarding_unit.v four_bank_mem.v fullAdder_1b.v hazard_detect.v IDEX_ff.v IFID_ff.v memc.syn.v mem_system.v memv.syn.v MEMWB_ff.v nand2.v nand3.v nor2.v nor3.v not1.v oneReg.v proc.v rf_bypass.v rf.v xor2.v xor3.v  ]
+alu_old.v alu.v barrelShifter.v branch_deci.v branch_forwarding.v cache_control.v cache.v cla_16b.v cla_4b.v control.v dff.v EXMEM_ff.v ff_16b.v final_memory.syn.v forwarding_unit.v four_bank_mem.v fullAdder_1b.v hazard_detect.v IDEX_ff.v IFID_ff.v memc.syn.v mem_system.v memv.syn.v MEMWB_ff.v nand2.v nand3.v nor2.v nor3.v not1.v oneReg.v proc.v rf_bypass.v rf.v xor2.v xor3.v
+set my_toplevel proc
+proc
+define_design_lib WORK -path ./WORK
+1
+analyze -f verilog $my_verilog_files
+Running PRESTO HDLC
+Compiling source file ./alu_old.v
+Compiling source file ./alu.v
+Compiling source file ./barrelShifter.v
+Compiling source file ./branch_deci.v
+Compiling source file ./branch_forwarding.v
+Compiling source file ./cache_control.v
+Compiling source file ./cache.v
+Warning:  ./cache.v:47: the undeclared symbol 'go' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./cache.v:48: the undeclared symbol 'match' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./cache.v:52: the undeclared symbol 'wr_word0' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./cache.v:53: the undeclared symbol 'wr_word1' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./cache.v:54: the undeclared symbol 'wr_word2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./cache.v:55: the undeclared symbol 'wr_word3' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./cache.v:57: the undeclared symbol 'wr_dirty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./cache.v:58: the undeclared symbol 'wr_tag' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./cache.v:59: the undeclared symbol 'wr_valid' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./cache.v:60: the undeclared symbol 'dirty_in' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./cache.v:68: the undeclared symbol 'dirtybit' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./cache.v:69: the undeclared symbol 'validbit' assumed to have the default net type, which is 'wire'. (VER-936)
+Compiling source file ./cla_16b.v
+Compiling source file ./cla_4b.v
+Compiling source file ./control.v
+Compiling source file ./dff.v
+Warning:  ./dff.v:15: delays for continuous assignment are ignored. (VER-173)
+Compiling source file ./EXMEM_ff.v
+Compiling source file ./ff_16b.v
+Compiling source file ./final_memory.syn.v
+Warning:  ./final_memory.syn.v:80: the undeclared symbol 'rd0' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./final_memory.syn.v:81: the undeclared symbol 'wr0' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./final_memory.syn.v:86: the undeclared symbol 'rd1' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./final_memory.syn.v:87: the undeclared symbol 'wr1' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./final_memory.syn.v:96: the undeclared symbol 'rd2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./final_memory.syn.v:97: the undeclared symbol 'wr2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./final_memory.syn.v:98: the undeclared symbol 'rd3' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./final_memory.syn.v:99: the undeclared symbol 'wr3' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./final_memory.syn.v:101: the undeclared symbol 'busy' assumed to have the default net type, which is 'wire'. (VER-936)
+Compiling source file ./forwarding_unit.v
+Warning:  ./final_memory.syn.v:105: The statements in initial blocks are ignored. (VER-281)
+Compiling source file ./four_bank_mem.v
+Warning:  ./four_bank_mem.v:81: the undeclared symbol 'sel0' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./four_bank_mem.v:82: the undeclared symbol 'sel1' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./four_bank_mem.v:83: the undeclared symbol 'sel2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./four_bank_mem.v:84: the undeclared symbol 'sel3' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./four_bank_mem.v:98: the undeclared symbol 'err0' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./four_bank_mem.v:100: the undeclared symbol 'err1' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./four_bank_mem.v:102: the undeclared symbol 'err2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  ./four_bank_mem.v:104: the undeclared symbol 'err3' assumed to have the default net type, which is 'wire'. (VER-936)
+Compiling source file ./fullAdder_1b.v
+Compiling source file ./hazard_detect.v
+Compiling source file ./IDEX_ff.v
+Compiling source file ./IFID_ff.v
+Compiling source file ./memc.syn.v
+Compiling source file ./mem_system.v
+Warning:  ./mem_system.v:95: the undeclared symbol 'cacheWrite1' assumed to have the default net type, which is 'wire'. (VER-936)
+Compiling source file ./memv.syn.v
+Compiling source file ./MEMWB_ff.v
+Compiling source file ./nand2.v
+Compiling source file ./nand3.v
+Compiling source file ./nor2.v
+Compiling source file ./nor3.v
+Compiling source file ./not1.v
+Compiling source file ./oneReg.v
+Error:  ./oneReg.v:23: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./oneReg.v:25: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./oneReg.v:26: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./oneReg.v:27: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./oneReg.v:28: case equality (===) is not supported by synthesis. (VER-189)
+Compiling source file ./proc.v
+Warning:  ./proc.v:207: the undeclared symbol 'EXMEM_RegWrite' assumed to have the default net type, which is 'wire'. (VER-936)
+Compiling source file ./rf_bypass.v
+Compiling source file ./rf.v
+Error:  ./rf.v:33: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:34: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:35: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:36: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:37: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:38: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:39: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:41: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:42: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:44: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:45: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:46: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:47: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:48: case equality (===) is not supported by synthesis. (VER-189)
+Error:  ./rf.v:49: case equality (===) is not supported by synthesis. (VER-189)
+Error:  Too many errors; can't continue. (VER-40)
+*** Presto compilation terminated with 21 errors. ***
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+0
+elaborate $my_toplevel -architecture verilog
+Loading db file '/s/synopsys-2019_03_22/@sys/syn/P-2019.03/libraries/syn/gtech.db'
+Loading db file '/s/synopsys-2019_03_22/@sys/syn/P-2019.03/libraries/syn/standard.sldb'
+  Loading link library 'gtech'
+Error: Can't find the architecture 'proc(verilog)' in the library 'WORK'
+0
+echo "********** CS552 Reading files end ********************"
+********** CS552 Reading files end ********************
+echo "********** CS552 Linking all modules begin ********************"
+********** CS552 Linking all modules begin ********************
+link
+Error: Current design is not defined. (UID-4)
+0
+echo "********** CS552 Linking all modules end **********************"
+********** CS552 Linking all modules end **********************
+echo "********** CS552 Checking design of all modules begin**********"
+********** CS552 Checking design of all modules begin**********
+check_design -summary
+Error: Current design is not defined. (UID-4)
+0
+echo "********** CS552 Checking design of all modules end************"
+********** CS552 Checking design of all modules end************
+report_hierarchy > synth/hierarchy.txt
+set filename [format "%s%s"  $my_toplevel ".syn.v"]
+proc.syn.v
+write -f verilog $my_toplevel -output synth/$filename -hierarchy
+Error: No files or designs were specified. (UID-22)
+0
+quit
+
+Thank you...

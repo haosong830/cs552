@@ -1,0 +1,18 @@
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/alignTest.asm SUCCESS CPI:4.1 CYCLES:29 ICOUNT:7 IHITRATE: 52.0 DHITRATE: 7.7
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/alignTest2.asm SUCCESS CPI:3.7 CYCLES:33 ICOUNT:9 IHITRATE: 37.9 DHITRATE: 25.0
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/alignTest3.asm SUCCESS CPI:4.1 CYCLES:33 ICOUNT:8 IHITRATE: 37.9 DHITRATE: 14.3
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/alignTest4.asm SUCCESS CPI:4.1 CYCLES:33 ICOUNT:8 IHITRATE: 37.9 DHITRATE: 14.3
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/branchTest.asm SUCCESS CPI:5.9 CYCLES:124 ICOUNT:21 IHITRATE: 21.7 DHITRATE: 0
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/cacheTest.asm SUCCESS CPI:2.6 CYCLES:309 ICOUNT:119 IHITRATE: 52.8 DHITRATE: 25.0
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/complex_exception_test.asm FAILED
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/extraCreditTest.asm FAILED
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/finalTest2.asm SUCCESS CPI:1.9 CYCLES:875 ICOUNT:456 IHITRATE: 87.5 DHITRATE: 49.2
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/firstTest.asm SUCCESS CPI:2.6 CYCLES:106 ICOUNT:41 IHITRATE: 32.4 DHITRATE: 0
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/ldld.asm SUCCESS CPI:3.6 CYCLES:210 ICOUNT:58 IHITRATE: 86.9 DHITRATE: 30.8
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/ldst.asm SUCCESS CPI:2.6 CYCLES:267 ICOUNT:102 IHITRATE: 87.5 DHITRATE: 51.4
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/loadStoreTest.asm SUCCESS CPI:2.7 CYCLES:96 ICOUNT:35 IHITRATE: 41.3 DHITRATE: 37.9
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/pipeTest.asm SUCCESS CPI:3.5 CYCLES:83 ICOUNT:24 IHITRATE: 31.6 DHITRATE: 14.3
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/shiftTest.asm SUCCESS CPI:2.3 CYCLES:230 ICOUNT:98 IHITRATE: 33.6 DHITRATE: 0
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/simple-exception-test.asm FAILED
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/stallTest.asm SUCCESS CPI:4.5 CYCLES:343 ICOUNT:76 IHITRATE: 32.2 DHITRATE: 35.1
+/u/s/i/sinclair/courses/cs552/spring2019/handouts/testprograms/public/complex_demofinal/ultimateTest.asm SUCCESS CPI:2.3 CYCLES:4403 ICOUNT:1908 IHITRATE: 94.3 DHITRATE: 81.2
